@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .hero {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .hero img {
+        width: 400px;
+        height: 200px;
+        object-fit: cover;
+      }
+      .hero h1 {
+        padding: 5px;
+        margin: 5px;
+      }
+      .hero p {
+        padding: 5px;
+        margin: 5px;
+        flex-direction: row;
+      }
+      .hero button {
+        padding: 5px;
+        background-color: red;
+        color: white;
+        border-radius: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+      <h1>Welcome to my Pinterest clone</h1>
+      <p>Discover new inspiration and save your favorite ideas</p>
+      <button type="submit">Explore Now</button>
+    </div>
+  </body>
 </html>
